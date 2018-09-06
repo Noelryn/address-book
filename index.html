@@ -14,16 +14,14 @@
 <body class="bg-blue-lighter">
   <h1 class="text-center">Contacts List</h1>
   
-<div class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-full items-center">
+  <div class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-bg-white	 rounded">
+    
   <button>Add Contact</button>
-</div>
+  </div>
 
   <div class="shadow-md"></div>
-  <div class="max-w-sm rounded overflow-hidden shadow-lg flex mx-auto bg-grey-lighter">
+  <div class="max-w-sm rounded overflow-hidden shadow-lg flex mx-auto px-32 bg-grey-lighter">
       <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
-        
-      
-     
 
   <form  action="#" class ="new-contact-form">
     <label class="font-bold text-xl mb-2">Name</label>
@@ -43,12 +41,14 @@
   </form>
     </div>
   </div>
- 
-     
-  
 
-  <div class="contact-list"></div>
-
+  <div class="shadow-md"> 
+  <div class="max-w-sm rounded overflow-hidden shadow-lg flex mx-auto bg-grey-lighter">
+      <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l overflow-hidden">
+  <div class="contact-list m-4"></div>
+</div>
+  </div>
+  </div>
 
   <script src="./dist/bundle.js"></script>
 </body>
