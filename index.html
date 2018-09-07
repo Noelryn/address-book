@@ -15,10 +15,10 @@
         <h1 class="font-mono text-xlg py-4 text-grey-darkest text-center">Contacts List</h1>
  
 <div class="text-center">
-  <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-full add-contact">Add Contact</button>
+  <button class="bg-red-dark hover:bg-black text-white font-bold py-2 px-4 rounded-full  add-contact">Add Contact</button>
   </div>
   <div class=" py-2"></div>
-  <div class="max-w-sm shadow appearance-none border border-black rounded overflow-hidden shadow-lg flex mx-auto px-32 bg-grey-lighter">
+  <div class="max-w-sm shadow appearance-none border border-black rounded overflow-hidden shadow-lg flex mx-auto px-32 bg-green-lightest">
   <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover py-4 rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
       
     
@@ -26,30 +26,38 @@
 
     <label class="font-bold text-xl mb-2 "for="name">Name</label>
     <input class="shadow appearance-none border border-black inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-name" name="name" type="text">
+    <div class=" py-1"></div>
     <label class="font-bold text-xl mb-2" for="email">Email</label>
     <input class="shadow appearance-none border border-black inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-email" name="email" type="email">
+    <div class=" py-1"></div>
     <label class="font-bold text-xl mb-2" for="phone">Phone</label>
     <input class="shadow appearance-none border border-black inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-phone" name="phone" type="text">
+    <div class=" py-1"></div>
     <label class="font-bold text-xl mb-2" for="company">Company</label>
     <input class="shadow appearance-none border border-black inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-company" name="company" type="text">
+    <div class=" py-1"></div>
     <label class="font-bold text-xl mb-2" for="twitter">Twitter</label>
     <input class="shadow appearance-none border border-black inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-twitter" name="twitter" type="text">
+    <div class=" py-1"></div>
     <label class="font-bold text-xl mb-2" for="notes">Notes</label>
     <textarea class="shadow appearance-none border border-black inline-block square-full text-sm font-semibold text-grey-darker mr-2 " id="contact-notes" name="notes" type="text"></textarea>
-
-    <input class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-full save-contact" type="submit" value="Save contact">
+    <div class=" py-2"></div>
+    <input class="bg-red-dark hover:bg-black text-white font-bold py-2 px-4 rounded-full save-contact" type="submit" value="Save contact">
   </form>
   </div>
   </div>
   </div>
+<form action="#" class ="new-contact-form">
+
   <div class=" py-2"></div>
-  <div class="max-w-sm rounded shadow appearance-none border border-black overflow-hidden shadow-lg flex mx-auto px-32 bg-grey-lighter">
+  <div class="max-w-sm rounded shadow appearance-none border border-black overflow-hidden shadow-lg flex mx-auto px-32 bg-green-lightest">
   <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
   <div class="text-center contact-list">
     </div>
   </div>
   </div>
   </div>
+</form>
   <script src="./dist/bundle.js"></script>
 </body>
 
