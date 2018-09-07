@@ -6,7 +6,8 @@ const renderContacts = () => {
     let div = document.querySelector('.contact-list');
     div.innderHTML = ''
     if (contacts) {        
-        const ul = document.createElement('ul');
+        const ul = document.createElement('ul')
+        ul.className = "list-reset";
         
         contacts.forEach(contact => {
             let li = document.createElement('li')
