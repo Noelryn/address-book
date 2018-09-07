@@ -7,49 +7,36 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
   <title>Address book</title>
-  
 </head>
 
+<body>
+    <body class="bg-blue-lighter">
+        <h1 class="text-center">Contacts List</h1>
+ 
 
-<body class="bg-blue-lighter">
-  <h1 class="text-center">Contacts List</h1>
-  
   <div class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-bg-white	 rounded">
+  <button class="add-contact">Add Contact</button>
+  </div>
+  <div class="contact-list">
     
-  <button>Add Contact</button>
   </div>
 
-  <div class="shadow-md"></div>
-  <div class="max-w-sm rounded overflow-hidden shadow-lg flex mx-auto px-32 bg-grey-lighter">
-      <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
+  <form action="#" class ="new-contact-form">
+    <label for="name">Name</label>
+    <input id="contact-name" name="name" type="text">
+    <label for="email">Email</label>
+    <input id="contact-email" name="email" type="email">
+    <label for="phone">Phone</label>
+    <input id="contact-phone" name="phone" type="text">
+    <label for="company">Company</label>
+    <input id="contact-company" name="company" type="text">
+    <label for="notes">Notes</label>
+    <textarea id="contact-notes" name="notes" type="text"></textarea>
+    <label for="twitter">Twitter</label>
+    <input id="contact-twitter" name="twitter" type="text">
 
-  <form  action="#" class ="new-contact-form">
-    <label class="font-bold text-xl mb-2">Name</label>
-    <input class="shadow appearance-none border inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-name" name="name" type="text">
-    <label class="font-bold text-xl mb-2" for="email">Email</label>
-    <input class="shadow appearance-none border inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-email" name="email" type="email">
-    <label class="font-bold text-xl mb-2" for="phone">Phone</label>
-    <input class="shadow appearance-none border  inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-phone" name="phone" type="text">
-    <label class= "font-bold text-xl mb-2" for="company">Company</label>
-    <input class="shadow appearance-none border inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-company" name="company" type="text">
-    <label class="font-bold text-xl mb-2" for="notes">Notes</label>
-    <textarea class="shadow appearance-none border inline-block bg-grey-lighter square-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-notes" name="notes" type="text"></textarea>
-    <label class="font-bold text-xl mb-2" for="twitter">Twitter</label>
-    <input class="shadow appearance-none border inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-twitter" name="twitter" type="text">
-
-    <input class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-full save-contact" type="submit" value="Save contact">
+    <input class="save-contact" type="submit" value="Save contact">
   </form>
-    </div>
-  </div>
-
-  <div class="shadow-md"> 
-  <div class="max-w-sm rounded overflow-hidden shadow-lg flex mx-auto bg-grey-lighter">
-      <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l overflow-hidden">
-  <div class="contact-list m-4"></div>
-</div>
-  </div>
-  </div>
-
   <script src="./dist/bundle.js"></script>
 </body>
 
