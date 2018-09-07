@@ -10,41 +10,44 @@
 </head>
 
 <body>
-    <body class="bg-blue-lighter">
+    <body class="bg-purple-lightest">
+    <div class="flex flex-col">  
         <h1 class="text-center">Contacts List</h1>
  
-
-  <div class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-bg-white rounded">
-  <button class="add-contact">Add Contact</button>
+<div class="text-center">
+  <button class=" bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-full add-contact">Add Contact</button>
   </div>
-  <div class="contact-list">
-  </div>
-  <div class="shadow-md">
   <div class="max-w-sm rounded overflow-hidden shadow-lg flex mx-auto px-32 bg-grey-lighter">
   <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
-
+      
+    
   <form action="#" class ="new-contact-form">
+
     <label class="font-bold text-xl mb-2 "for="name">Name</label>
-    <input class="shadow appearance-none border inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-name" name="name" type="text">
+    <input class="shadow appearance-none border border-black inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-name" name="name" type="text">
     <label class="font-bold text-xl mb-2" for="email">Email</label>
-    <input class="shadow appearance-none border inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-email" name="email" type="email">
+    <input class="shadow appearance-none border border-black inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-email" name="email" type="email">
     <label class="font-bold text-xl mb-2" for="phone">Phone</label>
-    <input class="shadow appearance-none border  inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-phone" name="phone" type="text">
+    <input class="shadow appearance-none border border-black inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-phone" name="phone" type="text">
     <label class="font-bold text-xl mb-2" for="company">Company</label>
-    <input class="shadow appearance-none border inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-company" name="company" type="text">
-    <label class="font-bold text-xl mb-2" for="notes">Notes</label>
-    <textarea class="shadow appearance-none border inline-block square-full text-sm font-semibold text-grey-darker mr-2 " id="contact-notes" name="notes" type="text"></textarea>
+    <input class="shadow appearance-none border border-black inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-company" name="company" type="text">
     <label class="font-bold text-xl mb-2" for="twitter">Twitter</label>
-    <input class="shadow appearance-none border inline-block  rounded-full  text-sm font-semibold text-grey-darker mr-2" id="contact-twitter" name="twitter" type="text">
+    <input class="shadow appearance-none border border-black inline-block rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="contact-twitter" name="twitter" type="text">
+    <label class="font-bold text-xl mb-2" for="notes">Notes</label>
+    <textarea class="shadow appearance-none border border-black inline-block square-full text-sm font-semibold text-grey-darker mr-2 " id="contact-notes" name="notes" type="text"></textarea>
 
     <input class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-full save-contact" type="submit" value="Save contact">
   </form>
   </div>
   </div>
   </div>
-  <div class="shadow-md"></div>
-  <div class="max-w-sm rounded overflow-hidden shadow-lg flex mx-auto bg-grey-lighter"></div>
-  <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l overflow-hidden"></div>
+  <div class="max-w-sm rounded overflow-hidden shadow-lg flex mx-auto px-32 bg-grey-lighter">
+  <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
+  <div class="text-center contact-list">
+    </div>
+  </div>
+  </div>
+  </div>
   <script src="./dist/bundle.js"></script>
 </body>
 
