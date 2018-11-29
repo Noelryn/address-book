@@ -7,4 +7,4 @@ It was a pair Programme project with one of my coharts
 We prepared the back end code together
 We used Yarn for testing
 
-The styling was done in the html file with Tailwind CSS
+styling was done in the html file with Tailwind CSS
